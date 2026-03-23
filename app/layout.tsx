@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   icons: {
-    icon: "/logo.svg",
+    icon: "/logo2.svg",
   },
   title: {
     default: "R0myadhy | Portfolio",

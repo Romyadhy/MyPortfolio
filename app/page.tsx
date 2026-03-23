@@ -28,7 +28,7 @@ const ctaButtons = [
   {
     text: "Touch in",
     icon: Mails,
-    href: "mailto:your.email@example.com",
+    href: "romyady221@gmail.com",
     internal: false,
   },
 ];

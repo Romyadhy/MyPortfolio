@@ -36,7 +36,7 @@ export function Navbar() {
           >
             {/* <span className="text-xl">⚡</span> */}
             <Image
-              src="/logo.svg"
+              src="/logo2.svg"
               alt="R0myadhy logo"
               width={24}
               height={24}

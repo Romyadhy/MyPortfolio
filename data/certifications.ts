@@ -1,34 +1,27 @@
+// ponytail: simple typed schema storing credential details, badge assets, and skills; zero external DB or API overhead
 export interface Certification {
-    name: string;
-    issuer: string;
-    date: string;
-    credentialUrl?: string;
-    description?: string;
+  id: string;
+  name: string;
+  issuer: string;
+  issueDate: string;
+  image: string;
+  credentialUrl?: string;
+  skills: string[];
+  description: string;
+  featured?: boolean;
 }
 
 export const certifications: Certification[] = [
-    {
-        name: "AWS Certified Cloud Practitioner",
-        issuer: "Amazon Web Services",
-        date: "Jan 2025",
-        credentialUrl: "https://aws.amazon.com/certification/",
-        description:
-            "Foundational understanding of AWS Cloud concepts, services, and terminology.",
-    },
-    {
-        name: "Google IT Support Professional",
-        issuer: "Google via Coursera",
-        date: "Mar 2024",
-        credentialUrl: "https://coursera.org/",
-        description:
-            "Comprehensive IT support skills including troubleshooting, customer service, and security.",
-    },
-    {
-        name: "Meta Front-End Developer",
-        issuer: "Meta via Coursera",
-        date: "Jun 2024",
-        credentialUrl: "https://coursera.org/",
-        description:
-            "Professional certificate covering React, JavaScript, HTML, CSS, and front-end development best practices.",
-    },
+  {
+    id: "postman-api-student-expert",
+    name: "Postman API Fundamentals Student Expert",
+    issuer: "Postman",
+    issueDate: "2025",
+    image: "/postman-certification.png",
+    credentialUrl: "https://badgr.com/",
+    skills: ["REST APIs", "API Testing", "HTTP Requests", "Test Automation"],
+    description:
+      "Demonstrated proficiency in foundational API concepts, sending HTTP requests, scripting automated tests, passing variables between requests, and consuming RESTful services with Postman.",
+    featured: true,
+  },
 ];

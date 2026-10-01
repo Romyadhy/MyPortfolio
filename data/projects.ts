@@ -62,4 +62,12 @@ export const projects: Project[] = [
     github: "https://github.com/Romyadhy/LearnOpenGL",
     tags: ["Other", "Learning"],
   },
+  {
+    name: "SamuBrawl Game",
+    description:
+      "A 2D brawler game developed in C++ and Raylib to explore game loops, physics, and low-level game mechanics.",
+    github: "https://github.com/Romyadhy/SamuBrawl-Game",
+    tags: ["Game", "Learning"],
+  },
 ];
+

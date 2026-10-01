@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Annoyed, Code, FileUser, Mails } from "lucide-react";
+import { Annoyed, Code, FileUser, icons, Mails } from "lucide-react";
 import { Typewriter } from "@/components/typewriter";
 
 const ctaButtons = [

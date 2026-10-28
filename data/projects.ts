@@ -69,5 +69,12 @@ export const projects: Project[] = [
     github: "https://github.com/Romyadhy/SamuBrawl-Game",
     tags: ["Game", "Learning"],
   },
+  {
+    name: "CN-CL-CW",
+    description:
+      "A website based game for kids learning about calculate number, complated later, and complated word.",
+    github: "https://github.com/Romyadhy/CN-CW",
+    external: "https://cn-cw.vercel.app/",
+    tags: ["Game", "Web"],
+  },
 ];
-
